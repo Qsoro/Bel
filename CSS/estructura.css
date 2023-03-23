@@ -1,0 +1,48 @@
+/* Seleccionamos el body para que tome todo el alto de la pagina */
+html, body 
+{
+    height:100%;
+}
+div
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.columna
+{
+    float: left;
+    padding: 1%;
+    margin: 0%;
+    border: 0%;
+}
+
+.costado
+{
+    opacity: 0%;
+    background-color: none; 
+}
+
+#centro
+{
+    height: 90%;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.formulario
+{
+    display: block;
+}
+
+
+
+
+@media only screen and (max-width: 1366px)
+{
+    .costado{width: 30%;}
+    #centro{width: 34%;}
+}
